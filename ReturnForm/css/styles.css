@@ -1,0 +1,59 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    background-color:#ceaa85;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1.2rem;
+}
+
+form {
+    margin: 0% 30% 4% 30%;
+    padding: 1.7% 4% 4% 4%;
+    border-style: solid;
+}
+
+.info {
+    margin-bottom: 0.3rem;
+}
+
+.checkboxes {
+    margin-right: 100%;
+}
+
+.checkboxes, .radio-btn {
+    line-height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+.input-box-spacing {
+    margin-bottom: 1rem;
+}
+
+.input-box {
+    width: 100%;
+    height: 1.8rem;
+}
+
+.selection-input {
+    width: 30%;
+    height: 1.8rem;
+}
+
+.top-text {
+    text-align: center;
+}
+
+.btn {
+    width: 101.5%;
+    height: 3rem;
+}

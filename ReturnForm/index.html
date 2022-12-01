@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        
+        <title>Issue With Product</title>
+    </head>
+
+    <body>
+
+        <h1 id="title" class="top-text">Issue with purchase</h1>
+        <p id="description" class="top-text">How can we help for your purchase?</p>
+
+        <!--Form fields-->
+        <form id="survey-form">
+
+            <h3>Personal info</h3>
+
+            <!--Name input-->
+            <label for="name" id="name-label">First and Last Name</label>
+            <input class="input-box input-box-spacing" type="text" id="name" name="name" placeholder="John Doe" required> 
+
+            <!--Email input-->
+            <label for="email" id="email-label">Email </label>
+            <input class="input-box" type="email" id="email" name="email" 
+                placeholder="john_doe@mail.com" required> 
+
+
+            <!--Date of purchase input-->
+            <h3>Date of purchase</h3>
+            <label for="date">Date of purchase</label>
+            <input class="selection-input" type="date" id="date" name="date" required>
+
+            <!--Type of product input-->
+            <h3><label for="component" id="component-label">Component</label></h3>
+            <select class="selection-input" id="component" name="component">
+                <option value="processor">Processor</option>
+                <option value="motherboard">Motherboard</option>
+                <option value="memory">Memory</option>
+                <option value="graphics-card">Grapics Card</option>
+                <option value="power-supply">Power Supply</option>
+                <option value="hard-drive">Hard Drive</option>
+                <option value="ssd">SSD</option>
+                <option value="case">Case</option>
+            </select>
+            
+            
+            <h3>Issue</h3>
+            <!--Issue input-->
+            <label class="checkboxes">
+                <input type="checkbox" id="issue1" name="issue1" value="package-damaged">
+                Package was damaged
+            </label>
+    
+            <label class="checkboxes">
+                <input type="checkbox" id="issue2" name="issue2" value="does-not-work">
+                Does not work
+            </label>
+
+            <label class="checkboxes">
+                <input type="checkbox" id="issue3" name="issue3" value="broken">
+                Broken
+            </label>
+
+            <label class="checkboxes">
+                <input type="checkbox" id="issue4" name="issue4" value="performance-lower">
+                Performance not on par
+            </label>
+
+            <!--Refund or exchange input-->
+            <label class="radio-btn">
+                <input type="radio" id="exchange" name="radio-input" value="exchange" checked>
+                Exchange
+            </label>
+                
+            <label class="radio-btn">
+                <input type="radio" id="refund" name="radio-input" value="refund" >
+                Refund
+            </label>
+
+            <!--Text area-->
+            <p class="info">Any additonal information</p>
+            <textarea id="additional-info" name="additional-info" 
+                placeholder="Addtional info" required></textarea>
+
+            <input class="btn" type="submit" value="Submit">
+
+        </form>
+
+    </body>
+</html>
